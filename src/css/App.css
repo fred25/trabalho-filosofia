@@ -1,0 +1,296 @@
+body{
+  overflow: hidden;
+}
+
+.app{
+  background-color: #b0c4a0;
+  z-index: -4;
+  height: 100vh;
+}
+
+.title-page-div{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: FadeIn 3s;
+}
+
+.rules-page{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: FadeIn 3s;
+}
+
+@keyframes FadeIn {
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+h1{
+  margin: 8vh 0;
+  font-family: 'Shrikhand', cursive;
+  font-weight: 400;
+  text-align: center;
+  font-size: 5vw;
+  color: black;
+}
+
+.regras-li{
+  position: relative;
+  font-family: 'Shrikhand', cursive;
+  font-size: 3.3vh;
+  margin: 4vh;
+}
+
+.regras-li::before {
+  position: absolute;
+  content: '';
+  background-color: black;
+  left: -1em;
+  top: 1vh;
+  border-radius: 50%;
+  height: .5em;
+  width: .5em;
+}
+
+.regras-ul{
+  width: 30vw;
+}
+
+.background-svg-wrapper{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.background-1{
+  width: 40vw;
+  position: absolute;
+  left: -7vw;
+  top: -30vh;
+  animation: animation1 7s alternate infinite;
+}
+
+@keyframes animation1 {
+  0%{
+    left: -7vw;
+    top: -30vh;
+  }
+
+  100%{
+    left: -13vw;
+    top: -25vh;
+  }
+
+}
+
+.background-2{
+  width: 20vw;
+  position: absolute;
+  right: 10vw;
+  top: -15vh;
+  animation: animation2 7s alternate infinite;
+}
+
+@keyframes animation2 {
+  0%{
+    right: 10vw;
+    top: -15vh;
+  }
+
+  100%{
+    right: 5vw;
+    top: -20vh;
+  }
+
+}
+
+.background-3{
+  width: 35vw;
+  position: absolute;
+  right: 0vw;
+  bottom: -10vh;
+  animation: animation3 10s alternate infinite;
+}
+
+@keyframes animation3 {
+  0%{
+    right: -1vw;
+    bottom: -10vh;
+  }
+
+  100%{
+    right: -10vw;
+    bottom: -20vh;
+  }
+
+}
+
+.background-4{
+  width: 40vw;
+  position: absolute;
+  left: -7vw;
+  bottom: -30vh;
+  animation: animation4 7s alternate infinite;
+}
+
+@keyframes animation4 {
+  0%{
+    left: -7vw;
+    bottom: -30vh;
+  }
+
+  100%{
+    left: -14vw;
+    bottom: -20vh;
+  }
+
+}
+
+.title-button{
+  font-family: 'Shrikhand', cursive;
+  font-size: 3vw;
+  text-align: center;
+  display: flex;
+  margin-top: 5vh;
+  padding: 5vh 12vw;
+  background-color: #00000000;
+  border: none;
+  background-image: url('../svg/button.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .3s;
+}
+
+.buttons-wrapper{
+  display: flex;
+}
+
+button:hover{
+  transform: scale(107%) !important;
+}
+
+.plato-img{
+  height: 40vh;
+}
+
+.leaf{
+  height: 30vh;
+  margin: 3vw;
+}
+
+.-right-leaf{
+  transform: scaleX(-1);
+}
+
+.pergunta{
+  font-family: 'Shrikhand', cursive;
+  font-size: 5vh;
+  text-align: justify;
+}
+
+.resposta{
+  font-family: 'Shrikhand', cursive;
+  font-size: 2vw;
+  margin-top: 7vh;
+  border: solid .2em;
+  border-radius: .5em;
+  padding: .5em;
+  cursor: pointer;
+}
+
+.game{
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  margin: 2vw;
+  height: 100vh;
+}
+
+.pergunta-resposta{
+  width: 70vw;
+}
+
+.equipe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid .2em;
+  border-radius: .5em;
+  padding: 1em;
+}
+
+b{
+  font-family: 'Shrikhand', cursive;
+  font-size: 3vw;
+  margin: 1em;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 10vh;
+}
+
+h3{
+  font-family: 'Shrikhand', cursive;
+  font-size: 3vw;
+  margin: .2em;
+  color: inherit;
+}
+
+.score-button{
+  background-color: #00000000;
+  border: solid .2em;
+  border-color: inherit;
+  border-radius: 50%;
+  width: 2vw;
+  font-family: 'Shrikhand', cursive;
+  font-size: 1vw;
+  transition: .3s;
+}
+
+.score-button:hover{
+  transform: scale(200%);
+}
+
+.e1{
+  color: #bb4a46;
+}
+
+.e2{
+  color: #34a5cf;
+}
+
+.e3{
+  color: #bb6b02;
+}
+
+.e4{
+  color: #c650ba;
+}
+
+.game-buttons{
+  display: flex;
+}
+
+.true{
+  color: lime
+}
+
+.false{
+  color: red
+}
