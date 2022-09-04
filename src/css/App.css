@@ -286,11 +286,3 @@ h3{
 .game-buttons{
   display: flex;
 }
-
-.true{
-  color: lime
-}
-
-.false{
-  color: red
-}

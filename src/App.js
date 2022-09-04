@@ -79,7 +79,7 @@ const questions = [
     respostas: [
       { alt: "a) ignorância da questão", res: false },
       { alt: "b) tu quoque", res: false },
-      { alt: "c) apelo à emoção", res: true},
+      { alt: "c) apelo à emoção", res: true },
     ],
   },
   {
@@ -93,7 +93,7 @@ const questions = [
   },
   {
     pergunta:
-       'O boxe é um esporte inseguro e arriscado; logo, o boxe é perigoso” A falácia apresentada pelo personagem tem o nome de:',
+      "O boxe é um esporte inseguro e arriscado; logo, o boxe é perigoso” A falácia apresentada pelo personagem tem o nome de:",
     respostas: [
       { alt: "a) tu quoque", res: false },
       { alt: "b) peticão de princípio", res: true },
@@ -102,13 +102,30 @@ const questions = [
   },
   {
     pergunta:
-    '"Se a arma tiver digitais ele é o assasino, porém a arma não tinha digitais, logo ele não é o assasino." O argumento é um:',
-    respostas:[
-      {alt: "Modus Tollens", res:false},
-      {alt: "Falácia do Modus Thiagus", res:false},
-      {alt: "Falácia da negação do antecedente", res:true}
-    ]
-  }
+      '"Se a arma tiver digitais ele é o assasino, porém a arma não tinha digitais, logo ele não é o assasino." O argumento é um:',
+    respostas: [
+      { alt: "Modus Tollens", res: false },
+      { alt: "Falácia do Modus Thiagus", res: false },
+      { alt: "Falácia da negação do antecedente", res: true },
+    ],
+  },
+  {
+    pergunta: " A fórmula a seguir tem qual operador ?: Q se, e só se, R ",
+    respostas: [
+      { alt: "a) negação", res: false },
+      { alt: "b) bicondicional", res: true },
+      { alt: "c) condicional", res: false },
+    ],
+  },
+  {
+    pergunta:
+      "Qual é o indicador de premissa e conclusão do seguinte argumento? Escolha a alternativa em que está identificado e classificado corretamente. “Supondo que a vacina funciona, a ciência está certa.“ ",
+    respostas: [
+      { alt: "a) supondo / indicador de premissa", res: true },
+      { alt: "b) que / indicador de premissa", res: false },
+      { alt: "c) supondo / indicador de conclusão", res: false },
+    ],
+  },
 ];
 
 let jogo = Array.from(questions);
@@ -267,7 +284,7 @@ const App = () => {
                   <button
                     className="title-button"
                     onClick={() => {
-                      jogo.splice(index, 1)
+                      jogo.splice(index, 1);
                       setIndex(Math.floor(Math.random() * jogo.length));
                       setRevealed(false);
                       numero == 10 ? setPage(3) : setNumero(numero + 1);
@@ -393,7 +410,7 @@ const App = () => {
                 setTeam4(0);
                 setRevealed(false);
                 jogo = Array.from(questions);
-                console.log(jogo)
+                console.log(jogo);
               }}
             >
               Terminar
