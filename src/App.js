@@ -111,9 +111,7 @@ const questions = [
   }
 ];
 
-const jogo = questions;
-
-console.log(questions.length)
+var jogo = questions;
 
 const App = () => {
   const [page, setPage] = useState(0);
