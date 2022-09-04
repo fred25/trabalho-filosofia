@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trabalho-filosofia/static/css/main.52ddf4f2.css",
-    "main.js": "/trabalho-filosofia/static/js/main.bf0f067d.js",
+    "main.js": "/trabalho-filosofia/static/js/main.3e12c652.js",
     "static/media/plato.png": "/trabalho-filosofia/static/media/plato.854d58f22a10f61efa58.png",
     "static/media/leaf.svg": "/trabalho-filosofia/static/media/leaf.a501f645d70d72e5b40b1553b1d66f42.svg",
     "static/media/Background_4.svg": "/trabalho-filosofia/static/media/Background_4.a5d4d4adbc2b6aaa35eaa8056a87dce2.svg",
@@ -11,10 +11,10 @@
     "index.html": "/trabalho-filosofia/index.html",
     "static/media/button.svg": "/trabalho-filosofia/static/media/button.903b632d4bb26459675e.svg",
     "main.52ddf4f2.css.map": "/trabalho-filosofia/static/css/main.52ddf4f2.css.map",
-    "main.bf0f067d.js.map": "/trabalho-filosofia/static/js/main.bf0f067d.js.map"
+    "main.3e12c652.js.map": "/trabalho-filosofia/static/js/main.3e12c652.js.map"
   },
   "entrypoints": [
     "static/css/main.52ddf4f2.css",
-    "static/js/main.bf0f067d.js"
+    "static/js/main.3e12c652.js"
   ]
 }
