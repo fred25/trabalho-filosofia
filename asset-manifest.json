@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fred25.github.io/trabalho-filosofia/static/css/main.6cd3c9ed.css",
-    "main.js": "/fred25.github.io/trabalho-filosofia/static/js/main.5a31ee19.js",
-    "static/media/plato.png": "/fred25.github.io/trabalho-filosofia/static/media/plato.854d58f22a10f61efa58.png",
-    "static/media/leaf.svg": "/fred25.github.io/trabalho-filosofia/static/media/leaf.a501f645d70d72e5b40b1553b1d66f42.svg",
-    "static/media/Background_4.svg": "/fred25.github.io/trabalho-filosofia/static/media/Background_4.a5d4d4adbc2b6aaa35eaa8056a87dce2.svg",
-    "static/media/Background_3.svg": "/fred25.github.io/trabalho-filosofia/static/media/Background_3.6a3bcbdbcbb9d9287006f18aef203f21.svg",
-    "static/media/Background_1.svg": "/fred25.github.io/trabalho-filosofia/static/media/Background_1.eed4eb86d9496bd8d671456c29d0e6f8.svg",
-    "static/media/Background_2.svg": "/fred25.github.io/trabalho-filosofia/static/media/Background_2.160929f1e3f6f0cdc602654e4a45417e.svg",
-    "index.html": "/fred25.github.io/trabalho-filosofia/index.html",
-    "static/media/button.svg": "/fred25.github.io/trabalho-filosofia/static/media/button.903b632d4bb26459675e.svg",
-    "main.6cd3c9ed.css.map": "/fred25.github.io/trabalho-filosofia/static/css/main.6cd3c9ed.css.map",
-    "main.5a31ee19.js.map": "/fred25.github.io/trabalho-filosofia/static/js/main.5a31ee19.js.map"
+    "main.css": "/trabalho-filosofia/static/css/main.52ddf4f2.css",
+    "main.js": "/trabalho-filosofia/static/js/main.bf0f067d.js",
+    "static/media/plato.png": "/trabalho-filosofia/static/media/plato.854d58f22a10f61efa58.png",
+    "static/media/leaf.svg": "/trabalho-filosofia/static/media/leaf.a501f645d70d72e5b40b1553b1d66f42.svg",
+    "static/media/Background_4.svg": "/trabalho-filosofia/static/media/Background_4.a5d4d4adbc2b6aaa35eaa8056a87dce2.svg",
+    "static/media/Background_3.svg": "/trabalho-filosofia/static/media/Background_3.6a3bcbdbcbb9d9287006f18aef203f21.svg",
+    "static/media/Background_1.svg": "/trabalho-filosofia/static/media/Background_1.eed4eb86d9496bd8d671456c29d0e6f8.svg",
+    "static/media/Background_2.svg": "/trabalho-filosofia/static/media/Background_2.160929f1e3f6f0cdc602654e4a45417e.svg",
+    "index.html": "/trabalho-filosofia/index.html",
+    "static/media/button.svg": "/trabalho-filosofia/static/media/button.903b632d4bb26459675e.svg",
+    "main.52ddf4f2.css.map": "/trabalho-filosofia/static/css/main.52ddf4f2.css.map",
+    "main.bf0f067d.js.map": "/trabalho-filosofia/static/js/main.bf0f067d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cd3c9ed.css",
-    "static/js/main.5a31ee19.js"
+    "static/css/main.52ddf4f2.css",
+    "static/js/main.bf0f067d.js"
   ]
 }
