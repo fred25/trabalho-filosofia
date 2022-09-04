@@ -111,7 +111,7 @@ const questions = [
   }
 ];
 
-var jogo = questions;
+let jogo = Array.from(questions);
 
 const App = () => {
   const [page, setPage] = useState(0);
@@ -392,7 +392,8 @@ const App = () => {
                 setTeam3(0);
                 setTeam4(0);
                 setRevealed(false);
-                jogo = questions;
+                jogo = Array.from(questions);
+                console.log(jogo)
               }}
             >
               Terminar
