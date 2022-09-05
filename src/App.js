@@ -126,6 +126,33 @@ const questions = [
       { alt: "c) supondo / indicador de conclusão", res: false },
     ],
   },
+  {
+    pergunta:
+      "Identifique a falácia:Frederico: não se pode ficar muito tempo na frente do computador pois faz mal à saúde.Isabella: mas e tu passa o dia todo programando, isso não pode ser verdade! ",
+    respostas: [
+      { alt: "a) ignorância da questão", res: false },
+      { alt: "b) tu quoque", res: true },
+      { alt: "c) apelo à emoção", res: false },
+    ],
+  },
+  {
+    pergunta:
+      " Complete a lacuna: “a falácia do apelo ao povo consiste em tomar uma proposição verdadeira apenas porque um grupo ou a maioria das pessoas __” ",
+    respostas: [
+      { alt: "a) não a aceita", res: false },
+      { alt: "b) é indiferente", res: false },
+      { alt: "c) acredita nela", res: true },
+    ],
+  },
+  {
+    pergunta:
+      " “Sempre que o Fred toca bateria, começa a chover”. Avalie o seguinte argumento:",
+    respostas: [
+      { alt: "a) apelo ao povo ", res: false },
+      { alt: "b) ad hominem", res: false },
+      { alt: "c) falsa causa", res: true },
+    ],
+  }
 ];
 
 let jogo = Array.from(questions);
